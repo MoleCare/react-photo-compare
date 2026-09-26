@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # Dev tools only: the package has no run-time dependencies besides React,
+  # which is a peer. Grouped so there is one pull request a week, not ten.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      dev-tools:
+        dependency-type: development
+    open-pull-requests-limit: 5
+
+  # Actions are pinned by SHA; this keeps the pins current.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ['*']
