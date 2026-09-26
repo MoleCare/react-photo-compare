@@ -15,8 +15,12 @@ updates:
       # Follows the Node version CI and .nvmrc use (22), not the newest Node.
       - dependency-name: '@types/node'
         update-types: [version-update:semver-major]
-      # A new TypeScript major waits until typescript-eslint supports it.
+      # typescript-eslint declares an upper bound on TypeScript, and minor
+      # versions can cross it too, so TypeScript moves only on purpose.
       - dependency-name: typescript
+        update-types: [version-update:semver-major, version-update:semver-minor]
+      # Babel 8 needs babel-jest to support it first.
+      - dependency-name: '@babel/*'
         update-types: [version-update:semver-major]
     open-pull-requests-limit: 5
 
