@@ -35,6 +35,8 @@ jobs:
       - run: npm run typecheck
       - run: npx jest --ci --coverage
       - run: npm run build
+      # The demo imports src/, so this also catches an API change that breaks it.
+      - run: npm run demo:build
 
   package:
     name: exports, types and tarball contents

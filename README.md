@@ -4,6 +4,9 @@ Two photos side by side with one shared zoom and pan, for React. Zoom into one
 photo, or drag it, and the other follows, so the same spot stays lined up in
 both.
 
+**[Try the live demo](https://molecare.github.io/react-photo-compare/)**: drag, pinch,
+scroll or use the keyboard on the examples.
+
 Good for before-and-after photos, progress photos, design or product review,
 and comparing scans or maps.
 

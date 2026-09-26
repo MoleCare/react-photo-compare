@@ -18,8 +18,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2020",
-    "types": ["jest", "node"],
+    "types": ["jest", "node", "vite/client"],
     "verbatimModuleSyntax": true
   },
-  "include": ["src", "__tests__", "tsup.config.ts"]
+  "include": ["src", "__tests__", "demo", "tsup.config.ts", "vite.config.ts"]
 }
