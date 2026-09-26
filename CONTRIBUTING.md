@@ -54,6 +54,7 @@ real DOM events, so no browser is needed.
 | `npm run lint` / `npm run format` | ESLint (typescript-eslint strict, React hooks) and Prettier          |
 | `npm run build`                   | Builds `dist/` with tsup: ES module, CommonJS and types              |
 | `npm run check:package`           | Builds, then publint and arethetypeswrong on the packed package      |
+| `npm run demo`                    | The demo site on a local dev server, using the code in `src/`        |
 | `npm run check:consumer -- pnpm`  | Installs the packed package with that package manager and renders it |
 
 CI runs all of these on every pull request, and the consumer check with npm,

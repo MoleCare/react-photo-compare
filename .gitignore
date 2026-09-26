@@ -7,3 +7,4 @@ coverage/
 .env.*
 dist/
 node_modules
+demo-dist/

@@ -6,6 +6,12 @@ All notable changes to this package are recorded here. The format follows
 
 ## Unreleased
 
+### Added
+
+- A live demo site (`demo/`, published to GitHub Pages from `main`) with six
+  examples: basic, drawing review, controlled view, the hook with three
+  pictures, translated labels, and styling. Its pictures are drawn in code.
+
 ## 0.1.0
 
 ### Added
