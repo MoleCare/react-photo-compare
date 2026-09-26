@@ -11,6 +11,13 @@ All notable changes to this package are recorded here. The format follows
 - A live demo site (`demo/`, published to GitHub Pages from `main`) with six
   examples: basic, drawing review, controlled view, the hook with three
   pictures, translated labels, and styling. Its pictures are drawn in code.
+- Issue and pull request templates, CODEOWNERS, Dependabot for dev tools and
+  actions, `.editorconfig` and `.nvmrc`.
+
+### Security
+
+- Dev tools only: esbuild pinned to 0.28.1 or newer (GHSA-g7r4-m6w7-qqqr, a
+  Windows dev-server file read). The published package was never affected.
 
 ## 0.1.0
 

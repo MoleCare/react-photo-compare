@@ -1,5 +1,11 @@
 # @molecare/react-photo-compare
 
+[![CI](https://github.com/MoleCare/react-photo-compare/actions/workflows/ci.yml/badge.svg)](https://github.com/MoleCare/react-photo-compare/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@molecare/react-photo-compare)](https://www.npmjs.com/package/@molecare/react-photo-compare)
+[![bundle size](https://img.shields.io/bundlejs/size/@molecare/react-photo-compare)](https://bundlejs.com/?q=@molecare/react-photo-compare)
+![types included](https://img.shields.io/npm/types/@molecare/react-photo-compare)
+[![licence](https://img.shields.io/badge/licence-Apache--2.0-blue)](LICENSE)
+
 Two photos side by side with one shared zoom and pan, for React. Zoom into one
 photo, or drag it, and the other follows, so the same spot stays lined up in
 both.

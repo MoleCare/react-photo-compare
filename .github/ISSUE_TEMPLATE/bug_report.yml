@@ -1,0 +1,46 @@
+name: Bug report
+description: Something does not work the way the README says.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please never attach a real photo of a person;
+        a screenshot of the problem with test pictures is perfect.
+        Security problems go to info@molecare.co.uk instead (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Smallest example
+      description: A few lines of JSX, or a link to a CodeSandbox or StackBlitz.
+      render: tsx
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: '0.1.0'
+    validations:
+      required: true
+  - type: input
+    id: react
+    attributes:
+      label: React version and framework
+      placeholder: 'React 19.1, Next.js 15 App Router'
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: 'Safari 18 on iPhone 15, touch'
+    validations:
+      required: true

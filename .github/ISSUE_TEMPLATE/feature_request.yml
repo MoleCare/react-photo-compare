@@ -1,0 +1,28 @@
+name: Feature request
+description: An idea that would make the package more useful.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This package shows photos and never analyses them (see CONTRIBUTING.md).
+        Ideas that read what is in a photo will be declined, but everything about
+        viewing, comparing and accessibility is welcome.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that is hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How you would like it to work, ideally with the props or API you imagine.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I would like to open a pull request for this.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/MoleCare/react-photo-compare/security/advisories/new
+    about: Please do not open a public issue for security problems.
+  - name: Try the live demo
+    url: https://molecare.github.io/react-photo-compare/
+    about: Check whether the behaviour you see also happens on the demo.
