@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Two photos side by side with one shared zoom and pan, for React. Drag, pinch, scroll or use the keyboard; zoom one and the other follows. No dependencies, SSR-safe, unstyled.",
   "license": "Apache-2.0",
-  "author": "MoleCare LTD <info@molecare.co.uk> (https://www.molecare.co.uk)",
+  "author": "Yauhen Bichel <info@molecare.co.uk> (https://www.molecare.co.uk)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoleCare/react-photo-compare.git"
