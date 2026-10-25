@@ -323,4 +323,4 @@ worse than none. [Contributor graph](https://github.com/MoleCare/react-photo-com
 
 ## Licence
 
-[Apache-2.0](LICENSE) © Aleh Bichel
+[Apache-2.0](LICENSE) © Yauhen Bichel
